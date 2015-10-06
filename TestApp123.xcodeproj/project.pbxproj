@@ -14,6 +14,7 @@
 		432EE9D81BC3F55F00D45678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9D71BC3F55F00D45678 /* Images.xcassets */; };
 		432EE9DB1BC3F55F00D45678 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9D91BC3F55F00D45678 /* LaunchScreen.xib */; };
 		432EE9E71BC3F55F00D45678 /* TestApp123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9E61BC3F55F00D45678 /* TestApp123Tests.m */; };
+		432EE9F21BC3F5ED00D45678 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9F11BC3F5ED00D45678 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		432EE9E01BC3F55F00D45678 /* TestApp123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApp123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432EE9E51BC3F55F00D45678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432EE9E61BC3F55F00D45678 /* TestApp123Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp123Tests.m; sourceTree = "<group>"; };
+		432EE9F01BC3F5ED00D45678 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		432EE9F11BC3F5ED00D45678 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				432EE9D71BC3F55F00D45678 /* Images.xcassets */,
 				432EE9D91BC3F55F00D45678 /* LaunchScreen.xib */,
 				432EE9CA1BC3F55F00D45678 /* Supporting Files */,
+				432EE9F01BC3F5ED00D45678 /* TestViewController.h */,
+				432EE9F11BC3F5ED00D45678 /* TestViewController.m */,
 			);
 			path = TestApp123;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				432EE9D31BC3F55F00D45678 /* ViewController.m in Sources */,
 				432EE9D01BC3F55F00D45678 /* AppDelegate.m in Sources */,
+				432EE9F21BC3F5ED00D45678 /* TestViewController.m in Sources */,
 				432EE9CD1BC3F55F00D45678 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				432EE9EC1BC3F55F00D45678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432EE9ED1BC3F55F00D45678 /* Build configuration list for PBXNativeTarget "TestApp123Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				432EE9EF1BC3F55F00D45678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
