@@ -15,6 +15,8 @@
 		432EE9DB1BC3F55F00D45678 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9D91BC3F55F00D45678 /* LaunchScreen.xib */; };
 		432EE9E71BC3F55F00D45678 /* TestApp123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9E61BC3F55F00D45678 /* TestApp123Tests.m */; };
 		432EE9F21BC3F5ED00D45678 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9F11BC3F5ED00D45678 /* TestViewController.m */; };
+		432EE9F41BC3FFF600D45678 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9F31BC3FFF600D45678 /* README.md */; };
+		432EE9F71BC4001F00D45678 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9F61BC4001F00D45678 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		432EE9E61BC3F55F00D45678 /* TestApp123Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp123Tests.m; sourceTree = "<group>"; };
 		432EE9F01BC3F5ED00D45678 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		432EE9F11BC3F5ED00D45678 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		432EE9F31BC3FFF600D45678 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		432EE9F51BC4001F00D45678 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		432EE9F61BC4001F00D45678 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 		432EE9BE1BC3F55F00D45678 = {
 			isa = PBXGroup;
 			children = (
+				432EE9F31BC3FFF600D45678 /* README.md */,
 				432EE9C91BC3F55F00D45678 /* TestApp123 */,
 				432EE9E31BC3F55F00D45678 /* TestApp123Tests */,
 				432EE9C81BC3F55F00D45678 /* Products */,
@@ -84,6 +90,8 @@
 		432EE9C91BC3F55F00D45678 /* TestApp123 */ = {
 			isa = PBXGroup;
 			children = (
+				432EE9F51BC4001F00D45678 /* MainViewController.h */,
+				432EE9F61BC4001F00D45678 /* MainViewController.m */,
 				432EE9CE1BC3F55F00D45678 /* AppDelegate.h */,
 				432EE9CF1BC3F55F00D45678 /* AppDelegate.m */,
 				432EE9D11BC3F55F00D45678 /* ViewController.h */,
@@ -225,7 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				432EE9D31BC3F55F00D45678 /* ViewController.m in Sources */,
+				432EE9F71BC4001F00D45678 /* MainViewController.m in Sources */,
 				432EE9D01BC3F55F00D45678 /* AppDelegate.m in Sources */,
+				432EE9F41BC3FFF600D45678 /* README.md in Sources */,
 				432EE9F21BC3F5ED00D45678 /* TestViewController.m in Sources */,
 				432EE9CD1BC3F55F00D45678 /* main.m in Sources */,
 			);
